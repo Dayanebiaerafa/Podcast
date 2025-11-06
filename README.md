@@ -1,10 +1,10 @@
-﻿![capa](https://github.com/Dayanebiaerafa/Podcast/blob/main/DamadaInformção.png)
+﻿![capa](https://github.com/Dayanebiaerafa/Podcast/blob/main/damadainformacao.png)
 
 # 🎙️ Podcast Gerado por I.A.s – *Damas da Informação: O Retorno dos Algoritmos*
 
 🚀 **Projeto Santander Trainee 2026 – DIO**
 
-[![🎧 Ouvir o Podcast](https://img.shields.io/badge/🎧%20Ouvir%20Podcast-blue?style=for-the-badge)](./podcast/DamasDaInformacao.mp4)
+[![🎧 Ouvir o Podcast](https://img.shields.io/badge/🎧%20Ouvir%20Podcast-blue?style=for-the-badge)](./podcast/damasdainformacao.mp4)
 
 ---
 
