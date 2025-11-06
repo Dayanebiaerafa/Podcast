@@ -8,94 +8,119 @@
   <style>
     body {
       font-family: "Segoe UI", Arial, sans-serif;
-      color: #f0f0f0;
-      background: linear-gradient(160deg, #111827, #1e293b);
-      text-align: center;
+      background-color: #ffffff;
+      color: #222;
       margin: 0;
-      padding: 40px 20px;
+      padding: 0;
+      text-align: center;
     }
 
     header {
-      text-align: center;
-      margin-bottom: 30px;
+      background-color: #4b92f5;
+      color: #ffffff;
+      padding: 30px 20px;
+    }
+
+    header img.capa {
+      width: 160px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-bottom: 15px;
     }
 
     header h1 {
-      font-size: 2.3rem;
-      margin: 10px 0;
-      color: #ffffff;
-      text-shadow: 0 0 8px rgba(255,255,255,0.2);
+      margin: 10px 0 5px 0;
+      font-size: 2rem;
     }
 
     header h3 {
-      font-size: 1.1rem;
-      font-weight: 400;
-      color: #cccccc;
       margin: 0;
+      font-weight: 400;
+      font-size: 1.1rem;
     }
 
-    img.capa {
-      width: 180px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(255,255,255,0.1);
-      margin-bottom: 20px;
-    }
-
-    audio {
-      width: 280px;
-      height: 45px;
-      border-radius: 40px;
-      background: #e9f0ff;
-      margin: 20px auto;
-      display: block;
-    }
-
-    p {
-      max-width: 700px;
-      margin: 15px auto;
-      line-height: 1.6;
-      color: #e5e5e5;
+    main {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: 0 auto;
       text-align: left;
     }
 
+    main p {
+      line-height: 1.6;
+      color: #333;
+    }
+
+    audio {
+      display: block;
+      margin: 25px auto;
+      width: 260px;
+      height: 40px;
+      border-radius: 25px;
+      background-color: #e6f0ff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border: none;
+    }
+
     .tecnologias {
-      margin-top: 30px;
       text-align: center;
+      margin-top: 40px;
     }
 
-    .tecnologias img {
-      width: 30px;
-      height: 30px;
-      vertical-align: middle;
-      margin-right: 8px;
+    .tecnologias h3 {
+      color: #4b92f5;
+      font-size: 1.2rem;
+      margin-bottom: 15px;
     }
 
-    ul {
+    .tecnologias ul {
       list-style: none;
       padding: 0;
     }
 
-    li {
-      background: rgba(255,255,255,0.08);
-      margin: 8px auto;
+    .tecnologias li {
+      background: #f5f5f5;
+      margin: 6px auto;
       padding: 8px 16px;
       border-radius: 8px;
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      color: #fff;
+      color: #000;
+      font-weight: 500;
+    }
+
+    .tecnologias img {
+      width: 28px;
+      height: 28px;
+      vertical-align: middle;
     }
 
     footer {
+      background-color: #f0f4f8;
+      padding: 25px 10px;
       margin-top: 40px;
-      font-size: 0.9rem;
-      color: #bbb;
+      font-size: 0.95rem;
+    }
+
+    footer p {
+      color: #000;
+      margin: 5px 0 10px 0;
+      font-weight: 600;
     }
 
     footer a {
-      color: #38bdf8;
+      color: #ffffff;
+      background-color: #4b92f5;
+      padding: 6px 12px;
+      border-radius: 6px;
+      margin: 0 6px;
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      background-color: #3a7ae0;
     }
   </style>
 </head>
@@ -109,16 +134,22 @@
 
   <main>
     <p>
-      🎧 <b>Podcast “Damas da Informação”</b> projeto de <b>Inteligência Artificial</b> desenvolvido durante o 
+      🎧 <b>Podcast “Damas da Informação”</b> — projeto de <b>Inteligência Artificial</b> desenvolvido durante o 
       <b>Programa Trainee Santander 2026</b>, em parceria com a <b>Universia</b> e o curso 
       <i>Fundamentos de IA Generativa</i>.
     </p>
 
     <p>
-      O trabalho teve como foco aplicar ferramentas de <b>IA generativa</b> para a 
+      O trabalho teve como foco aplicar ferramentas de <b>IA generativa</b> para automatizar a 
       criação de um podcast multimídia, unindo <b>roteiro, voz, imagem e edição</b> em uma produção 
       totalmente inteligente e criativa.
-    </p> 
+    </p>
+
+    <!-- Player de áudio estilo WhatsApp -->
+    <audio controls>
+      <source src="./podcast/damasdainformacao.mp4" type="audio/mp4">
+      Seu navegador não suporta áudio.
+    </audio>
 
     <div class="tecnologias">
       <h3>💻 Tecnologias Utilizadas</h3>
@@ -133,9 +164,11 @@
   </main>
 
   <footer>
-     <a href="https://github.com/Dayanebiaerafa/Podcast" target="_blank">Ver projeto no GitHub</a><br>
-     <a href="https://www.linkedin.com/in/dayaneteodoro/" target="_blank">LinkedIn</a> |
-     <a href="https://dayanebiaerafa.github.io/Podcast/" target="_blank">Portfólio</a>
+    <p>🌐 Desenvolvido por <b>Dayane Teodoro</b></p>
+    <a href="https://github.com/Dayanebiaerafa/Podcast" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/dayaneteodoro/" target="_blank">LinkedIn</a>
+    <a href="https://dayanebiaerafa.github.io/Podcast/" target="_blank">Portfólio</a>
   </footer>
 </body>
 </html>
+
